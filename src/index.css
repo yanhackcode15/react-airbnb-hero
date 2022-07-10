@@ -1,0 +1,128 @@
+/* -webkit-appearance: none; */
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #23252C;
+    font-family: "inter", sans-serif;
+
+}
+.white-text {
+    color: #ffffff;
+}
+
+.orange-text {
+    color: #F3BF99;
+}
+
+.black-text {
+    color: #374151;
+}
+.card {
+    width: 313px;
+    display: flex;
+    margin: auto; 
+    flex-direction: column;
+    background-color: #1A1B21;
+}
+.headshot {
+    width: 313px;
+}
+.intro {
+    margin: 30px 35px 15px 35px;
+    justify-content: center;
+}
+
+
+.intro-name {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.intro-title {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+.site-link {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.button-text {
+    font-size: 14px;
+}
+
+.about-title, .interests-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+}
+
+.about-text, .interests-text {
+    font-size: 10px;
+    margin-top: 0px;
+}
+.bio {
+    align-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    /* flex-item */
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.button-text {
+    padding: 5px;
+}
+.linkedin-button {
+    background-color: #5093E2 !important;
+}
+.main {
+    margin: 0px 35px 25px 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.footer {
+    background-color: #161619;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px 8px 10px;
+    margin: 0px;
+    
+}
+
+.footer-icons > li{
+    padding: 10px;
+    color: #918E9B;
+    font-size: 20px;
+}
+
