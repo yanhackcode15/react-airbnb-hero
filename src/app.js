@@ -1,16 +1,16 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Bio from "./components/bio"
-import Footer from "./components/footer"
-import Main from "./components/main"
+import Nav from "./components/nav"
+import Hero from "./components/hero"
+import Experiences from "./components/experiences"
 
 
 export default function App() {
     return (
-        <div className="card">
-            <Bio />
-            <Main />
-            <Footer />
+        <div>
+            <Nav />
+            <Hero />
+            <Experiences />
         </div>
     )
 }
