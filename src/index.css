@@ -24,10 +24,10 @@
     margin-top: 26px;
     margin-bottom: 32px;
 }
-.experiences {
+/* .experiences {
     width: 550px;
     margin: auto;
-}
+} */
 .experiences-text > h1 {
     font-style: normal;
     font-weight: 600;
@@ -78,6 +78,7 @@
 
 .lesson-name {
     margin-bottom: 8px;
+    text-overflow: ellipsis;
 }
 
 .bold {
@@ -87,6 +88,9 @@
 .cards {
     display: flex;
     list-style: none;
-    margin-left: 18px;
+    gap: 18px;
+    margin-left: 36px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
