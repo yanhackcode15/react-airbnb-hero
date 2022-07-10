@@ -56,9 +56,6 @@
     font-style: normal;
     font-size: 12px;
     line-height: 110%;
-    margin-left: 18px;
-    margin-top: 49px;
-    margin-bottom: 36px;
 }
 .star-image {
     width: 14px;
@@ -87,8 +84,8 @@
 
 .cards {
     display: flex;
-    list-style: none;
     gap: 18px;
+    margin-top: 49px;
     margin-left: 36px;
     flex-wrap: nowrap;
     overflow-x: auto;

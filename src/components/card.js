@@ -4,7 +4,7 @@ import dot from "../images/ellipse.png"
 
 export default function Card(props) {
     return (
-        <div>
+        <div className={props.className}>
             <img className="card-image" src={props.image} />
                     <div className="ratings">
                         <img className="star-image" src={star} />

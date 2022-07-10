@@ -6,16 +6,17 @@ import CardData from "../../data"
 export default function Experiences() {
     const mapper = function (card){
         console.log(card.coverImg)
-        return (<li className="card">
-        <Card 
-        image={card.coverImg}
-        rating={card.stats.rating}
-        reviewCount={card.stats.reviewCount}
-        country="USA"        
-        title={card.title}
-        price={card.price}
+        return (
+        <Card className="card"
+            key={card.id}
+            image={card.coverImg}
+            rating={card.stats.rating}
+            reviewCount={card.stats.reviewCount}
+            country="USA"        
+            title={card.title}
+            price={card.price}
         />
-        </li>)
+       )
     }
     const cards = CardData.map(mapper)
     return (
@@ -25,9 +26,9 @@ export default function Experiences() {
                 <p>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
                 </p>
             </div>
-            <ul className="cards">
+            <div className="cards">
                 {cards}              
-            </ul>
+            </div>
         </div>
     )
 }
