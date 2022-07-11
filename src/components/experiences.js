@@ -9,12 +9,7 @@ export default function Experiences() {
         return (
         <Card className="card"
             key={card.id}
-            image={card.coverImg}
-            rating={card.stats.rating}
-            reviewCount={card.stats.reviewCount}
-            country="USA"        
-            title={card.title}
-            price={card.price}
+            {...card}
         />
        )
     }
